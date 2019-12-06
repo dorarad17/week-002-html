@@ -12,6 +12,18 @@ body {
     text-align: left;
   }
 
+  #add {
+    background-color:#b5f587;
+  }
+  
+  .edit {
+    background-color: #fad541;
+  }
+  
+  .delete {
+    background-color: #f77e90;
+  }
+
   #top {
     font-family: courier, monospace;
   }
