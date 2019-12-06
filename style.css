@@ -13,8 +13,7 @@ body {
   }
 
   #top {
-    border: 1px solid #dedede;
-    
+    font-family: courier, monospace;
   }
 
   #list {
