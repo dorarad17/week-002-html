@@ -37,3 +37,12 @@ body {
     padding: 10px;
     text-transform: capitalize;
   }
+
+  .lines {
+    border-left: 1px solid #ffaa9f;
+    border-right: 1px solid #ffaa9f;
+    width: 2px;
+    float: left;
+    height: 495px;
+    margin-left: 40px;
+  }
