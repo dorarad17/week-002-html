@@ -34,6 +34,11 @@ body {
     text-transform: capitalize;
   }
 
+  .item:hover {
+    background-color: #f0e4f0;
+    color: green;
+  }
+
   .lines {
     border-left: 1px solid #ffaa9f;
     border-right: 1px solid #ffaa9f;
