@@ -3,6 +3,11 @@ body {
     padding-top: 150px; 
   }
 
+  .navbar {
+    background-color:#28385b;
+
+  }
+
   h1 {
     color: #F9B87F;
     font-size: 42px;
