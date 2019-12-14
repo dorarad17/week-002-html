@@ -24,11 +24,11 @@ body {
     background-color: #f77e90;
   }
 
-  #top {
+  #input {
     font-family: courier, monospace;
   }
 
-  #list {
+  .item {
     color: #555;
     font-size: 22px;
     padding: 0 !important;
@@ -49,14 +49,4 @@ body {
   .item:hover {
     background-color: #f0e4f0;
     color: green;
-  }
-
-  .lines {
-    border-left: 1px solid #ffaa9f;
-    border-right: 1px solid #ffaa9f;
-    width: 2px;
-    float: left;
-    height: 138px;
-    margin-left: 40px;
-    margin-top: 7px;
   }
