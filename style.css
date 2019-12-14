@@ -10,6 +10,12 @@ body {
     text-align: left;
   }
 
+  h2 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
   #add {
     background-color:#b5f587;
   }
@@ -35,16 +41,3 @@ body {
     
   }
 
-  #list li {
-    list-style: none;
-    border-bottom: 1px dotted #ccc;
-    text-indent: 25px;
-    height: auto;
-    padding: 10px;
-    text-transform: capitalize;
-  }
-
-  .item:hover {
-    background-color: #f0e4f0;
-    color: green;
-  }
