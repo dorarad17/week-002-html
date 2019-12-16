@@ -16,10 +16,11 @@ body {
     text-align: left;
   }
 
-  h2 {
-    font-family: 'Montserrat-Black', sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
+  #total{
+    padding: 50px;
+    font-size: 42px;
+    letter-spacing: -2px;
+    color:	#343c3f;
   }
 
   #add {
