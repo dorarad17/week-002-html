@@ -14,15 +14,16 @@
         <div>
           <nav class="navbar fixed-top navbar-expand-md">   
           <a class="navbar-brand" href=""><h1>To Do List</h1></a>
+          <nav class="navbar add">
+              <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Add new task" aria-label="Search">
+                <button type="button" class="btn btn-success"><i class="fas fa-plus"></i></button>
+              </form>
+            </nav>
           </nav>
         </div>
         
-        <div class = "row" id = "input">
-          <div class = "col-md-6" style = "border: 1px solid">
-            <h2>New task </h2>
-            <button type="button" class="btn btn-success btn-lg"><i class="fas fa-plus"></i></button>
-          </div>
-          <div class = "col-12 col-md-3" id = "total" style = "border: 1px solid">
+        <div class = "col-12 col-md-3 text-center" id = "total" style = "border: 1px solid">
             <p>Total number of tasks: <input type=number> </p>
           </div>
         </div>

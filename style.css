@@ -4,8 +4,9 @@ body {
   }
 
   .navbar {
-    background-color:#28385b;
-
+    background-color:	#4d76a9;
+    display: flex;
+    justify-content: space-between;
   }
 
   h1 {
