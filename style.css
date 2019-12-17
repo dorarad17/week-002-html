@@ -21,6 +21,7 @@ body {
     font-size: 42px;
     letter-spacing: -2px;
     color:	#343c3f;
+    background-color: lightblue;
   }
 
   #add {
@@ -41,9 +42,8 @@ body {
 
   .item {
     color: #555;
-    font-size: 22px;
-    padding: 0 !important;
-    width: 500px;
+    font-size: 40px;
+    padding-top: 20px;
     font-family: courier, monospace;
     align-content:center;
   }
