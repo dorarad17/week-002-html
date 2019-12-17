@@ -1,5 +1,5 @@
 body {
-    background-color: #F9B87F;
+    background-color:#acb8c6;
     padding-top: 150px; 
   }
 
@@ -21,12 +21,11 @@ body {
     font-size: 42px;
     letter-spacing: -2px;
     color:	#343c3f;
-    background-color: lightblue;
+    background-color:#4d76a9;
   }
 
  #number {
-   color: red;
-   background-color: blue;
+   color:#F9B87F;;
    padding: 20px 40px 20px 40px;
    font-size: 60px;
   }
@@ -53,7 +52,7 @@ body {
     margin: 30px;
     font-family: courier, monospace;
     align-content:center;
-    background-color: white;
+    background-color: #acb8c6;
   }
 
   
