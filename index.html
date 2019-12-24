@@ -25,33 +25,32 @@
 			<div>
 				<nav class="navbar fixed-top navbar-expand-md">
 					<a class="navbar-brand" href=""><h1>To Do List</h1></a>
-					<nav class="navbar add">
-						<form class="form-inline">
-							<input
-								class="form-control mr-sm-2"
-								type="search"
-								placeholder="Add new task"
-								aria-label="Search"
-							/>
-							<button type="button" class="btn btn-success">
-								<i class="fas fa-plus"></i>
-							</button>
-						</form>
-					</nav>
 				</nav>
 			</div>
 
-			<div class="text-center" id="total">
-				<div class="pyro">
-					<div class="before"></div>
-					<div class="after"></div>
+			<div class="row text-center" id="newTask">
+				<form class="form-inline">
+					<input
+						class="form-control mr-sm-2"
+						type="search"
+						placeholder="New task here..."
+					/>
+
+					<button type="button" class="btn btn-success">
+						<i class="fas fa-plus"></i>
+					</button>
+				</form>
+			</div>
+
+			<div class="row text-center" id="total">
+				<div class="col-12">
+					<p>Things to do:</p>
+					<span id="number">3</span>
 				</div>
-				<p>Total number of tasks:</p>
-				<span id="number">3</span>
 			</div>
 
 			<div class="row item text-center">
-				<div class="col-md-12">
+				<div class="col-12">
 					Task 1
 					<button type="button" class="btn btn-danger">
 						<i class="far fa-trash-alt"></i>
@@ -63,7 +62,7 @@
 			</div>
 
 			<div class="row item text-center">
-				<div class="col-md-12">
+				<div class="col-12">
 					Task 2
 					<button type="button" class="btn btn-danger">
 						<i class="far fa-trash-alt"></i>
@@ -75,7 +74,7 @@
 			</div>
 
 			<div class="row item text-center">
-				<div class="col-md-12">
+				<div class="col-12">
 					Task 3
 					<button type="button" class="btn btn-danger">
 						<i class="far fa-trash-alt"></i>

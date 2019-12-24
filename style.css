@@ -17,11 +17,17 @@ h1 {
 }
 
 #total {
-	padding: 50px;
+	padding: 10px;
 	font-size: 42px;
 	letter-spacing: -2px;
 	color: #343c3f;
 	background-color: #4d76a9;
+}
+
+#newTask {
+	/* border: solid; */
+	margin-bottom: 30px;
+	align-items: center;
 }
 
 #number {
